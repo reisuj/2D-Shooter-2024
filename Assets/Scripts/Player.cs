@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float _playerSpeed = 5.0f;
 
+    [SerializeField]
+    private GameObject _laserPrefab;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +19,12 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerMovement();     
+        PlayerMovement();  
+        
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            FireLaser();
+        }
     }
 
     void PlayerMovement()
@@ -37,6 +45,12 @@ public class Player : MonoBehaviour
         {
             transform.position = new Vector3(11.3f, transform.position.y, 0);
         }
+    }
+
+    void FireLaser()
+    {
+        Debug.Log("Space key was pressed");
+        Instantiate(_laserPrefab, transform.position + new Vector3(0, 1.05f, 0), Quaternion.identity);
     }
 }
 

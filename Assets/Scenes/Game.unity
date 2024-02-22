@@ -315,7 +315,7 @@ Transform:
   m_GameObject: {fileID: 1309211285}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.19, y: -4, z: 0}
+  m_LocalPosition: {x: -1.75, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -334,6 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerSpeed: 5
+  _laserPrefab: {fileID: 7902651749034447246, guid: 680392a30d957d148a980c878c2aee76, type: 3}
 --- !u!1 &1917187174
 GameObject:
   m_ObjectHideFlags: 0
