@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField]
     private SpawnManager _spawnManager;
     [SerializeField]
     private float _playerSpeed = 5.0f;
