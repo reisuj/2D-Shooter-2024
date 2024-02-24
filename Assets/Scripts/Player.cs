@@ -5,6 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField]
+    private SpawnManager _spawnManager;
+    [SerializeField]
     private float _playerSpeed = 5.0f;
     [SerializeField]
     private int _lives = 3;
@@ -18,6 +20,11 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _spawnManager = GameObject.Find("Spawn_Manager").GetComponent<SpawnManager>();
+        if (_spawnManager == null)
+        {
+            Debug.LogError("The Spawn_Manager is NULL.");
+        }
         transform.position = new Vector3(0, 0, 0);
     }
 
@@ -63,6 +70,7 @@ public class Player : MonoBehaviour
         _lives--;
         if (_lives < 1)
         {
+            _spawnManager.PlayerDied();
             Destroy(this.gameObject);
         }
     }
