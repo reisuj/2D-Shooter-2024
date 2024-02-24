@@ -328,7 +328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerSpeed: 5
   _lives: 3
-  _laserPrefab: {fileID: 7902651749034447246, guid: 680392a30d957d148a980c878c2aee76, type: 3}
+  _laserPrefab: {fileID: 6982047165392492032, guid: 680392a30d957d148a980c878c2aee76, type: 3}
   _fireRate: 0.15
 --- !u!212 &1360049945
 SpriteRenderer:
