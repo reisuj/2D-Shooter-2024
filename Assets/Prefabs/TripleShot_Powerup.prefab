@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6185821480304623989}
   - component: {fileID: 7829039540921582289}
   - component: {fileID: 1679428957147725384}
+  - component: {fileID: 5409235882006508400}
   m_Layer: 0
   m_Name: TripleShot_Powerup
   m_TagString: Untagged
@@ -148,3 +149,16 @@ CircleCollider2D:
   m_Offset: {x: -0.0081961155, y: 0.06556678}
   serializedVersion: 2
   m_Radius: 1.2076833
+--- !u!114 &5409235882006508400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4820407681068195319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1779842111a0144cb6d6c83df2aad83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 3
