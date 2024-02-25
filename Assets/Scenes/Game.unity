@@ -247,6 +247,7 @@ MonoBehaviour:
   _enemySpawnDelay: 2
   _enemyPrefab: {fileID: 2516569305359122140, guid: a0de8a907719521439168fd57b1f4428, type: 3}
   _enemyContainer: {fileID: 408696974}
+  _tripleShotPowerupPrefab: {fileID: 4820407681068195319, guid: bc4579132d9acc649b04e32a50ad6ed3, type: 3}
   _playerIsAlive: 1
 --- !u!4 &401369776
 Transform:
