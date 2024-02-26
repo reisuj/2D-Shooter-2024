@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5935376002660820775}
   - component: {fileID: 1579877981573535560}
   - component: {fileID: 9175947635949732816}
-  - component: {fileID: -6599430185037894097}
+  - component: {fileID: 4214430790060634539}
   m_Layer: 0
   m_Name: Speed_Powerup
   m_TagString: Untagged
@@ -149,7 +149,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-6599430185037894097
+--- !u!114 &4214430790060634539
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,3 +162,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3
+  PowerUpID: 1
