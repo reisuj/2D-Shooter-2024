@@ -252,7 +252,7 @@ MonoBehaviour:
   _powerUps:
   - {fileID: 4820407681068195319, guid: bc4579132d9acc649b04e32a50ad6ed3, type: 3}
   - {fileID: 4355328208981036996, guid: 551f02b86d5b4614fbd4d1c4b4134ce5, type: 3}
-  - {fileID: 0}
+  - {fileID: 5615726492487631398, guid: 806ff28fc54c3b24fa33830686301158, type: 3}
 --- !u!4 &401369776
 Transform:
   m_ObjectHideFlags: 0
