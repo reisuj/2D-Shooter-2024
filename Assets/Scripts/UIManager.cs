@@ -19,4 +19,9 @@ public class UIManager : MonoBehaviour
     {
         
     }
+
+    public void UpdateScore(int playerScore)
+    {
+        _scoreText.text = "Score: " + playerScore;
+    }   
 }
