@@ -85,8 +85,7 @@ public class Player : MonoBehaviour
         else
         {
             Instantiate(_laserPrefab, transform.position + new Vector3(0, 1.05f, 0), Quaternion.identity);
-        }
-        
+        }        
     }
 
     public void Damage()
