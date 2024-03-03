@@ -55,6 +55,5 @@ public class SpawnManager : MonoBehaviour
     public void PlayerDied()
     {
         _playerIsAlive = false;
-        Debug.Log("Player Alive False.");
     }
 }

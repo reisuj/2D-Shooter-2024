@@ -12,7 +12,6 @@ public class EnemyBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("EnemyBehaviour Start() called.");
         _player = GameObject.Find("Player").GetComponent<Player>();
     }
 
